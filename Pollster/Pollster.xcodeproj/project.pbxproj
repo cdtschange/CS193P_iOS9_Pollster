@@ -8,20 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		27FE61B81DCC232B0040DDD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FE61B71DCC232B0040DDD6 /* AppDelegate.swift */; };
-		27FE61BA1DCC232B0040DDD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FE61B91DCC232B0040DDD6 /* ViewController.swift */; };
 		27FE61BD1DCC232B0040DDD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27FE61BB1DCC232B0040DDD6 /* Main.storyboard */; };
 		27FE61BF1DCC232B0040DDD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27FE61BE1DCC232B0040DDD6 /* Assets.xcassets */; };
 		27FE61C21DCC232B0040DDD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27FE61C01DCC232B0040DDD6 /* LaunchScreen.storyboard */; };
+		27FE61CD1DCC240F0040DDD6 /* QandAAccessoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FE61CA1DCC240F0040DDD6 /* QandAAccessoryTableViewController.swift */; };
+		27FE61CE1DCC240F0040DDD6 /* QandATableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FE61CB1DCC240F0040DDD6 /* QandATableViewController.swift */; };
+		27FE61CF1DCC240F0040DDD6 /* TextTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FE61CC1DCC240F0040DDD6 /* TextTableViewController.swift */; };
+		27FE61D11DCC24180040DDD6 /* CloudKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FE61D01DCC24180040DDD6 /* CloudKitExtensions.swift */; };
+		27FE61D31DCC24C20040DDD6 /* CloudQandATableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FE61D21DCC24C20040DDD6 /* CloudQandATableViewController.swift */; };
+		27FE61D61DCC29AA0040DDD6 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27FE61D51DCC29AA0040DDD6 /* CloudKit.framework */; };
+		27FE61D81DCC35310040DDD6 /* AllQandAsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FE61D71DCC35310040DDD6 /* AllQandAsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		27FE61B41DCC232B0040DDD6 /* Pollster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pollster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27FE61B71DCC232B0040DDD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		27FE61B91DCC232B0040DDD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		27FE61BC1DCC232B0040DDD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27FE61BE1DCC232B0040DDD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27FE61C11DCC232B0040DDD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27FE61C31DCC232B0040DDD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27FE61CA1DCC240F0040DDD6 /* QandAAccessoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QandAAccessoryTableViewController.swift; sourceTree = "<group>"; };
+		27FE61CB1DCC240F0040DDD6 /* QandATableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QandATableViewController.swift; sourceTree = "<group>"; };
+		27FE61CC1DCC240F0040DDD6 /* TextTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextTableViewController.swift; sourceTree = "<group>"; };
+		27FE61D01DCC24180040DDD6 /* CloudKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudKitExtensions.swift; sourceTree = "<group>"; };
+		27FE61D21DCC24C20040DDD6 /* CloudQandATableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudQandATableViewController.swift; sourceTree = "<group>"; };
+		27FE61D41DCC29960040DDD6 /* Pollster.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Pollster.entitlements; sourceTree = "<group>"; };
+		27FE61D51DCC29AA0040DDD6 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		27FE61D71DCC35310040DDD6 /* AllQandAsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllQandAsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27FE61D61DCC29AA0040DDD6 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +52,7 @@
 		27FE61AB1DCC232B0040DDD6 = {
 			isa = PBXGroup;
 			children = (
+				27FE61D51DCC29AA0040DDD6 /* CloudKit.framework */,
 				27FE61B61DCC232B0040DDD6 /* Pollster */,
 				27FE61B51DCC232B0040DDD6 /* Products */,
 			);
@@ -54,14 +69,28 @@
 		27FE61B61DCC232B0040DDD6 /* Pollster */ = {
 			isa = PBXGroup;
 			children = (
+				27FE61D41DCC29960040DDD6 /* Pollster.entitlements */,
+				27FE61D21DCC24C20040DDD6 /* CloudQandATableViewController.swift */,
+				27FE61D71DCC35310040DDD6 /* AllQandAsTableViewController.swift */,
 				27FE61B71DCC232B0040DDD6 /* AppDelegate.swift */,
-				27FE61B91DCC232B0040DDD6 /* ViewController.swift */,
 				27FE61BB1DCC232B0040DDD6 /* Main.storyboard */,
+				27FE61C91DCC23670040DDD6 /* Supporting Files */,
+			);
+			path = Pollster;
+			sourceTree = "<group>";
+		};
+		27FE61C91DCC23670040DDD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27FE61D01DCC24180040DDD6 /* CloudKitExtensions.swift */,
+				27FE61CA1DCC240F0040DDD6 /* QandAAccessoryTableViewController.swift */,
+				27FE61CB1DCC240F0040DDD6 /* QandATableViewController.swift */,
+				27FE61CC1DCC240F0040DDD6 /* TextTableViewController.swift */,
 				27FE61BE1DCC232B0040DDD6 /* Assets.xcassets */,
 				27FE61C01DCC232B0040DDD6 /* LaunchScreen.storyboard */,
 				27FE61C31DCC232B0040DDD6 /* Info.plist */,
 			);
-			path = Pollster;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +125,12 @@
 				TargetAttributes = {
 					27FE61B31DCC232B0040DDD6 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = TE2BYM67AU;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -135,8 +170,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27FE61BA1DCC232B0040DDD6 /* ViewController.swift in Sources */,
+				27FE61D11DCC24180040DDD6 /* CloudKitExtensions.swift in Sources */,
+				27FE61D31DCC24C20040DDD6 /* CloudQandATableViewController.swift in Sources */,
+				27FE61CF1DCC240F0040DDD6 /* TextTableViewController.swift in Sources */,
+				27FE61CD1DCC240F0040DDD6 /* QandAAccessoryTableViewController.swift in Sources */,
 				27FE61B81DCC232B0040DDD6 /* AppDelegate.swift in Sources */,
+				27FE61D81DCC35310040DDD6 /* AllQandAsTableViewController.swift in Sources */,
+				27FE61CE1DCC240F0040DDD6 /* QandATableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +289,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Pollster/Pollster.entitlements;
 				INFOPLIST_FILE = Pollster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cdts.Pollster;
@@ -260,6 +301,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Pollster/Pollster.entitlements;
 				INFOPLIST_FILE = Pollster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cdts.Pollster;
